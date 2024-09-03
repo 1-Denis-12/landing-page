@@ -116,3 +116,25 @@ body {
     width: 100px;
     height: 100px;
 }
+
+/* Quote */
+
+#quote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #e5e7eb;
+    padding: 100px 150px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.quote-text h3 {
+    position:absolute;
+    right: 20px;
+}
